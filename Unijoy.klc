@@ -1,0 +1,114 @@
+KBD	Bangla	"Bangla UniJoy Keyboard Layout"
+
+COPYRIGHT	"Open Source"
+
+COMPANY	"Public Domain"
+
+LOCALENAME	"bn-BD"
+
+LOCALEID	"00000845"
+
+VERSION	1.0
+
+SHIFTSTATE
+
+0	//Column 4
+1	//Column 5 : Shft
+2	//Column 6 :       Ctrl
+6	//Column 7 :       Ctrl Alt
+
+LAYOUT		;an extra '@' at the end is a dead key
+
+//SC	VK_		Cap	0	1	2	6
+//--	----		----	----	----	----	----
+
+29	OEM_3		0	200d	007e	-1	-1		// ZERO WIDTH JOINER, TILDE, <none>, <none>
+02	1		0	09e7	0021	-1	-1		// BENGALI DIGIT ONE, EXCLAMATION MARK, <none>, <none>
+03	2		0	09e8	0040	-1	-1		// BENGALI DIGIT TWO, COMMERCIAL AT, <none>, <none>
+04	3		0	09e9	0023	-1	-1		// BENGALI DIGIT THREE, NUMBER SIGN, <none>, <none>
+05	4		0	09ea	09f3	-1	-1		// BENGALI DIGIT FOUR, BENGALI RUPEE SIGN, <none>, <none>
+06	5		0	09eb	0025	-1	-1		// BENGALI DIGIT FIVE, PERCENT SIGN, <none>, <none>
+07	6		0	09ec	005e	-1	-1		// BENGALI DIGIT SIX, CIRCUMFLEX ACCENT, <none>, <none>
+08	7		0	09ed	0981	-1	-1		// BENGALI DIGIT SEVEN, BENGALI SIGN CANDRABINDU, <none>, <none>
+09	8		0	09ee	002a	-1	-1		// BENGALI DIGIT EIGHT, ASTERISK, <none>, <none>
+0a	9		0	09ef	0028	-1	-1		// BENGALI DIGIT NINE, LEFT PARENTHESIS, <none>, <none>
+0b	0		0	09e6	0029	-1	-1		// BENGALI DIGIT ZERO, RIGHT PARENTHESIS, <none>, <none>
+0c	OEM_MINUS	0	002d	005f	-1	-1		// HYPHEN-MINUS, LOW LINE, <none>, <none>
+0d	OEM_PLUS	0	003d	002b	-1	-1		// EQUALS SIGN, PLUS SIGN, <none>, <none>
+10	Q		0	0982	0999	-1	%%		// BENGALI SIGN ANUSVARA, BENGALI LETTER NGA, <none>, <null>
+11	W		0	09af	09df	-1	-1		// BENGALI LETTER YA, BENGALI LETTER YYA, <none>, <none>
+12	E		0	09a1	09a2	-1	-1		// BENGALI LETTER DDA, BENGALI LETTER DDHA, <none>, <none>
+13	R		0	09aa	09ab	-1	-1		// BENGALI LETTER PA, BENGALI LETTER PHA, <none>, <none>
+14	T		0	099f	09a0	-1	-1		// BENGALI LETTER TTA, BENGALI LETTER TTHA, <none>, <none>
+15	Y		0	099a	099b	-1	-1		// BENGALI LETTER CA, BENGALI LETTER CHA, <none>, <none>
+16	U		0	099c	099d	-1	-1		// BENGALI LETTER JA, BENGALI LETTER JHA, <none>, <none>
+17	I		0	09b9	099e	-1	-1		// BENGALI LETTER HA, BENGALI LETTER NYA, <none>, <none>
+18	O		0	0997	0998	-1	-1		// BENGALI LETTER GA, BENGALI LETTER GHA, <none>, <none>
+19	P		0	09dc	09dd	-1	-1		// BENGALI LETTER RRA, BENGALI LETTER RHA, <none>, <none>
+1a	OEM_4		0	005b	007b	-1	-1		// LEFT SQUARE BRACKET, LEFT CURLY BRACKET, <none>, <none>
+1b	OEM_6		0	005d	007d	-1	-1		// RIGHT SQUARE BRACKET, RIGHT CURLY BRACKET, <none>, <none>
+1e	A		0	09c3	%%	-1	-1		// BENGALI VOWEL SIGN VOCALIC R, <null>, <none>, <none>
+1f	S		0	09c1	09c2	-1	-1		// BENGALI VOWEL SIGN U, BENGALI VOWEL SIGN UU, <none>, <none>
+20	D		0	09bf	09c0	-1	-1		// BENGALI VOWEL SIGN I, BENGALI VOWEL SIGN II, <none>, <none>
+21	F		0	09be	0985	-1	0986		// BENGALI VOWEL SIGN AA, BENGALI LETTER A, <none>, BENGALI LETTER AA
+22	G		0	09cd@	0964	-1	-1		// BENGALI SIGN VIRAMA, DEVANAGARI DANDA, <none>, <none>
+23	H		0	09ac	09ad	-1	-1		// BENGALI LETTER BA, BENGALI LETTER BHA, <none>, <none>
+24	J		0	0995	0996	-1	-1		// BENGALI LETTER KA, BENGALI LETTER KHA, <none>, <none>
+25	K		0	09a4	09a5	-1	-1		// BENGALI LETTER TA, BENGALI LETTER THA, <none>, <none>
+26	L		0	09a6	09a7	-1	-1		// BENGALI LETTER DA, BENGALI LETTER DHA, <none>, <none>
+27	OEM_1		0	003b	003a	-1	-1		// SEMICOLON, COLON, <none>, <none>
+28	OEM_7		0	0027	0022	-1	-1		// APOSTROPHE, QUOTATION MARK, <none>, <none>
+2b	OEM_5		0	09ce	0983	-1	-1		// BENGALI LETTER KHANDA TA, BENGALI SIGN VISARGA, <none>, <none>
+2c	Z		0	%%	%%	-1	-1		// <null>, <null>, <none>, <none>
+2d	X		0	09cb	09cc	-1	-1		// BENGALI VOWEL SIGN O, BENGALI VOWEL SIGN AU, <none>, <none>
+2e	C		0	09c7	09c8	-1	-1		// BENGALI VOWEL SIGN E, BENGALI VOWEL SIGN AI, <none>, <none>
+2f	V		0	09b0	09b2	-1	%%		// BENGALI LETTER RA, BENGALI LETTER LA, <none>, <null>
+30	B		0	09a8	09a3	-1	-1		// BENGALI LETTER NA, BENGALI LETTER NNA, <none>, <none>
+31	N		0	09b8	09b7	-1	-1		// BENGALI LETTER SA, BENGALI LETTER SSA, <none>, <none>
+32	M		0	09ae	09b6	-1	-1		// BENGALI LETTER MA, BENGALI LETTER SHA, <none>, <none>
+33	OEM_COMMA	0	002c	003c	-1	-1		// COMMA, LESS-THAN SIGN, <none>, <none>
+34	OEM_PERIOD	0	002e	003e	-1	-1		// FULL STOP, GREATER-THAN SIGN, <none>, <none>
+35	OEM_2		0	002f	003f	-1	-1		// SOLIDUS, QUESTION MARK, <none>, <none>
+39	SPACE		0	0020	0020	-1	-1		// SPACE, SPACE, <none>, <none>
+53	DECIMAL	0	002e	002e	-1	-1		// FULL STOP, FULL STOP, ,
+
+LIGATURE
+
+//VK_	Mod#	Char0	Char1	Char2	Char3
+//----		----	----	----	----	----
+
+A		1	09b0	09cd		// BENGALI LETTER RA + BENGALI SIGN VIRAMA
+Q		3	0999	09cd	0997		// BENGALI LETTER NGA + BENGALI SIGN VIRAMA + BENGALI LETTER GA
+V		3	09b0	200d	09cd	09af		// BENGALI LETTER RA + ZERO WIDTH JOINER + BENGALI SIGN VIRAMA + BENGALI LETTER YA
+Z		0	09cd	09b0		// BENGALI SIGN VIRAMA + BENGALI LETTER RA
+Z		1	09cd	09af		// BENGALI SIGN VIRAMA + BENGALI LETTER YA
+
+DEADKEY	09cd
+
+09c7	098f	// ে -> এ
+09c8	0990	// ৈ -> ঐ
+09c1	0989	// ু -> উ
+09c2	098a	// ূ -> ঊ
+09cb	0993	// ো -> ও
+09cc	0994	// ৌ -> ঔ
+09c3	098b	// ৃ -> ঋ
+09bf	0987	// ি -> ই
+09c0	0988	// ী -> ঈ
+09be	0986	// া -> আ
+0020	0020	//   ->
+
+
+KEYNAME_DEAD
+
+09cd	"BENGALI SIGN VIRAMA"
+
+
+DESCRIPTIONS
+
+0409	Bangla UniJoy Keyboard Layout
+
+LANGUAGENAMES
+
+0409	Bangla (Bangladesh)
+
+ENDKBD
